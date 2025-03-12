@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1861" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1621" dy="1605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -70,11 +70,11 @@
         <mxCell id="IZafC-xWSNaEyw5Y1dcx-65" value="&amp;nbsp; &amp;nbsp; Colocar &quot;B&quot;" style="shape=step;perimeter=stepPerimeter;fixedSize=1;points=[];whiteSpace=wrap;html=1;" vertex="1" parent="IZafC-xWSNaEyw5Y1dcx-62">
           <mxGeometry x="186" y="33" width="100" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="IZafC-xWSNaEyw5Y1dcx-72" value="&quot;Coloca tus barcos&quot;" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="150" y="440" width="210" height="200" as="geometry" />
+        <mxCell id="IZafC-xWSNaEyw5Y1dcx-72" value="&quot;Coloca tus barcos&quot;" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="431.25" width="230" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="IZafC-xWSNaEyw5Y1dcx-73" value="En principio, se colocarán&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="IZafC-xWSNaEyw5Y1dcx-72">
-          <mxGeometry y="40" width="210" height="50" as="geometry" />
+        <mxCell id="IZafC-xWSNaEyw5Y1dcx-73" value="&lt;div style=&quot;line-height: 0%;&quot;&gt;&lt;h6 style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px; font-weight: normal;&quot;&gt;En principio, se colocarán&lt;/font&gt;&lt;/h6&gt;&lt;h6 style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;los barcos de manera fija.&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;/h6&gt;&lt;h6 style=&quot;line-height: 150%;&quot;&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;4 barcos de 1 posición&lt;/font&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px; font-weight: normal;&quot;&gt;3 barcos de dos posiciones&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px; font-weight: normal;&quot;&gt;2 barcos de tres posiciones&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;1 barco de cuatro posicione&lt;/span&gt;s&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/h6&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="120" y="442.5" width="220" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
