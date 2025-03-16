@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2206" dy="1729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -38,7 +38,7 @@
           <mxGeometry x="-130" y="370" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IZafC-xWSNaEyw5Y1dcx-11" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-110" y="261.25" width="80" height="32.5" as="geometry" />
+          <mxGeometry x="-100" y="261.25" width="80" height="32.5" as="geometry" />
         </mxCell>
         <mxCell id="IZafC-xWSNaEyw5Y1dcx-21" value="&quot;Bienvenido al juego: Aquí tienes tu tablero&quot;" style="shape=partialRectangle;fillColor=none;align=left;verticalAlign=middle;strokeColor=none;spacingLeft=34;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dropTarget=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="105" y="261.25" width="90" height="30" as="geometry" />
@@ -46,7 +46,7 @@
         <mxCell id="IZafC-xWSNaEyw5Y1dcx-22" value="" style="shape=partialRectangle;top=0;left=0;bottom=0;fillColor=none;stokeWidth=1;dashed=1;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[];portConstraint=eastwest;part=1;" parent="IZafC-xWSNaEyw5Y1dcx-21" vertex="1" connectable="0">
           <mxGeometry width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="t7COgZMmZy9F1C96WWdV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IZafC-xWSNaEyw5Y1dcx-30" target="IZafC-xWSNaEyw5Y1dcx-0">
+        <mxCell id="t7COgZMmZy9F1C96WWdV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IZafC-xWSNaEyw5Y1dcx-30" target="IZafC-xWSNaEyw5Y1dcx-0" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IZafC-xWSNaEyw5Y1dcx-30" value="&lt;div&gt;&lt;b&gt;&lt;font face=&quot;Lucida Console&quot; style=&quot;font-size: 16px;&quot;&gt;INICIO&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;El juego tendrá 2 tableros:&lt;/b&gt;&lt;div&gt;&lt;b&gt;Uno para el usuario y otro para el ordenador.&lt;/b&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -156,7 +156,7 @@
         <mxCell id="IZafC-xWSNaEyw5Y1dcx-107" value="Sigue jugando" style="whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1380" y="1150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IZafC-xWSNaEyw5Y1dcx-109" value="El turno cambia" style="whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="IZafC-xWSNaEyw5Y1dcx-109" value="El turno cambia\ Turno oponente" style="whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;rounded=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="1630" y="1150" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IZafC-xWSNaEyw5Y1dcx-111" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;fontSize=12;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="IZafC-xWSNaEyw5Y1dcx-77" edge="1">
