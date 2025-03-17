@@ -76,8 +76,7 @@ def posicionar_barcos_fijos(tablero_computer):
 def colocar_barcos_usuario(tablero):
     print("Vamos a añadir tus barcos")
     os.system("cls")
-    barcos_size = [4,3]
-                   # 3,2,2,2,1,1,1,1]
+    barcos_size = [4,3,3,2,2,2,1,1,1,1]
     for z in range(len(barcos_size)):
         os.system("cls")
         
@@ -85,10 +84,10 @@ def colocar_barcos_usuario(tablero):
             print("Primero añadiremos el porta-aviones de 4 posiciones")
         elif barcos_size[z] == 3:
             print("Luego un barco de 3 posiciones")    
-  #      elif barcos_size[z] == 2:
- #           print("Ahora toca un barco de 2 posiciones")
- #       else:
-  #          print("Por último los barcs de una posición")
+        elif barcos_size[z] == 2:
+            print("Ahora toca un barco de 2 posiciones")
+        else:
+            print("Por último los barcs de una posición")
         
         pprint.pprint(tablero) 
         while True:
