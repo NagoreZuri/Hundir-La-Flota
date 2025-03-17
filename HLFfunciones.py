@@ -76,7 +76,8 @@ def posicionar_barcos_fijos(tablero_computer):
 def colocar_barcos_usuario(tablero):
     print("Vamos a añadir tus barcos")
     os.system("cls")
-    barcos_size = [4,3,3,2,2,2,1,1,1,1]
+    barcos_size = [4,3]
+                   # 3,2,2,2,1,1,1,1]
     for z in range(len(barcos_size)):
         os.system("cls")
         
@@ -84,10 +85,10 @@ def colocar_barcos_usuario(tablero):
             print("Primero añadiremos el porta-aviones de 4 posiciones")
         elif barcos_size[z] == 3:
             print("Luego un barco de 3 posiciones")    
-        elif barcos_size[z] == 2:
-            print("Ahora toca un barco de 2 posiciones")
-        else:
-            print("Por último los barcs de una posición")
+  #      elif barcos_size[z] == 2:
+ #           print("Ahora toca un barco de 2 posiciones")
+ #       else:
+  #          print("Por último los barcs de una posición")
         
         pprint.pprint(tablero) 
         while True:
@@ -182,7 +183,6 @@ def disparo_jugador(tablero_computer, tablero_computer_visualizar):
         os.system("cls")
         print("disparemos")
         pprint.pprint(tablero_computer_visualizar)
-        pprint.pprint(tablero_computer)
         i = int(input("Dame el número de fila donde quieres disparar (1-10):")) 
         j = input("Ahora dame la letra de la columna (a-j):").lower()
         # Convertimos la l3
@@ -239,12 +239,15 @@ def disparo_computer(tablero):
         
         if tablero[i][j] in ["O", "X"]:
         # Si ya se ha disparado ahí, probar de nuevo
-            return continuar
+            time.sleep(1)
+            continue
+        
         
         if tablero[i][j] == "B":
             print("Tocado!")   #si la coordenada proporcionada da a una B, es un barco por tanto será TOCADO el mensaje y se sigue jugando
             tablero[i][j] = "X"
             pprint.pprint(tablero)
+            time.sleep(2)
             
             ganador1 = ganador(tablero)
             if ganador1 == True:
@@ -253,15 +256,18 @@ def disparo_computer(tablero):
             else:
                 print("El contrincante sigue jugando!")
                 time.sleep(2)
-                return continuar 
+                continue 
         
         elif tablero[i][j] == " ":  # Si la coordenada da un espacio vacío, se pasa el mensaje AGUA y acaba su turno
             print("Agua")
             tablero[i][j] = "O"
             pprint.pprint(tablero)
+            time.sleep(2)
             print("Te toca!")
-            continuar = False  
-            return  continuar
+            continuar = False
+            time.sleep(2)  
+        
+    return continuar
         
         #else:    #Otra opción es que el usuario repita coordenada y entonces saltará este mensaje y perderá turno
            # print("Ya ha disparado allí, volverá a probar")

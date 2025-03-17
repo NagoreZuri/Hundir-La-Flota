@@ -37,15 +37,13 @@ def main():
         
         #se configura el disparo pidiendo dos imputs de posición al usuario y viendo los 3 posibles impactos:
         ganador1 = disparo_jugador(tablero_computer, tablero_computer_visualizar)
-        time.sleep(2)
         if ganador1 == True:
             break
 
-        time.sleep(1)   
+        time.sleep(1)  
         # ahora la función que usará el ordenador para disparar 
     
-        ganador1 = disparo_computer(tablero)   
-        time.sleep(2)
+        ganador1 = disparo_computer(tablero)
 
 
 
